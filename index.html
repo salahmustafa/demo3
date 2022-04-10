@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    body{
+        background-image:url("img/bagbody.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 0px !important;
+        margin: 0px;
+    }
+    .header{
+        height: 70px;
+        padding: 5px;
+        color: #fff;
+        background-color: darkcyan;
+        
+    }
+    .header .log, .header .links{
+        display: inline-block;
+    }
+   
+    .header .links a{
+        text-decoration-line: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 7px;
+
+    }
+    .header ul a{
+        text-decoration-line: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .header ul{
+        list-style-type: none;
+        display:none;
+        height: 300px;
+        background-color: darkcyan;
+        width: 30% ;
+        text-align: center;
+        padding: 40px;
+        position:fixed;
+        top: 70px;
+        left: 35% ;
+        
+    }
+    .continer1{
+        margin-top: 60px;
+        padding: 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        border: solid;
+        padding: 0px;
+        
+        
+    }
+    .product{
+        display: inline-block;
+        height: 300px;
+        background-color: rgba(121, 999, 449, .1);
+        color:turquoise;
+        padding: 5px;
+    }
+</style>
+<body> 
+<div class="header">
+    <div class="log">
+        <h2 style="text-align: center; display: inline-block;color:white;">Make Your World</h2>
+    </div>
+<div class="links">
+    <a href="#">Home</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Conact</a>
+    <a href="#">MyWorld</a>
+    
+</div>
+<ul>
+    <li>
+        <a href="#">Home</a>
+    </li>
+<li>
+    <a href="#">About</a>
+</li>
+<li>
+<a href="#">Conact</a>
+</li>
+<li>
+<a href="#">MyWorld</a>
+</li>
+
+
+</ul>
+</div>
+<!--------------------End Header------------->
+<div class="continer1 col-12">
+
+<div class="product1 product col-12 col-md-6  col-lg-3">
+<h1>Product1</h1>
+</div>
+
+<div class="product1 product col-12 col-md-6  col-lg-3">
+    <h1>Product2</h1>
+    </div>
+
+    <div class="product1 col-12 product col-md-6 col-lg-3">
+        <h1>Product3</h1>
+        </div>
+
+
+        <div class="product1 col-12 product col-md-6 col-lg-3">
+            <h1>Product4</h1>
+            </div>
+    
+</div>
+
+
+</body>
+</html>
